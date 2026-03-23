@@ -27,12 +27,12 @@
   // 临时注释掉KV和D1配置以便开发服务器能正常启动
   /*
   , "kv_namespaces": [{ // <-------KV 数据库配置-------->
-      "binding": "Openlist_KV_DATA",// <---------请勿修改--------->
-      "id": "759e0599599146dab2087dd839107fbf" // <----修改为你创建的Cloudflare KV数据库ID
+      "binding": "KV_DATA",// <---------请勿修改--------->
+      "id": "" // <----修改为你创建的Cloudflare KV数据库ID
   }],"d1_databases": [{  // <-------D1 数据库配置-------->
       "binding": "D1_DATA",// <---------请勿修改--------->
-      "database_name": "openlist-prod-db", // <----修改为你CF D1数据库名称
-      "database_id": "b9d6d0be-7256-4b86-a64f-910d91e4b2c4"    // <----修改为你CF D1数据库UUID
+      "database_name": "", // <----修改为你CF D1数据库名称
+      "database_id": ""    // <----修改为你CF D1数据库UUID
   }], "observability": { // <-------CF 日志配置项-------->
      "enabled": false,       // 开启日志，如果需调试可以开
      "head_sampling_rate": 1 // <--------请勿修改-------->
